@@ -272,4 +272,44 @@ body {
    
 
 }
+@media only screen and (min-width:420px) and (max-width:991px){
+   
+   .main2 {
+ /* width: 1200px; */
+ width: 100%;
+            margin: 0px auto;
+            background-color: white;
+}
+   
+   
+    .navbarmain{
+        width: 100%;
+    }
+    .navbar2{
+        border: 1px solid red;
+        width: 100%;
+    }
+    
+    .about2ndsection{
+        border: 1px solid red;
+    }
+    .image{
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+       margin: 0px auto;
+       width: 100%;
+    }
+    .abouthero{
+        display: flex;
+        flex-direction: column;
+    }
+    .lastclass{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+}
 
