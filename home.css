@@ -1,0 +1,346 @@
+        body {
+            background-color: #ccc;
+            padding: 0px;
+        }
+
+        .main {
+            width: 1200px;
+            margin: 0px auto;
+            background-color: white;
+        }
+
+        .navbarmain {
+            border: 1px solid green;
+            background-image: url('img/simple-house-01.jpg');
+            background-size: 100% 140%;
+            background-repeat: no-repeat;
+            height: 500px;
+
+
+
+
+        }
+
+        .navbar2 {
+            display: flex;
+
+            /* border: 1px solid red; */
+            margin-top: 380px;
+            gap: 40px;
+            padding: 0px 30px;
+
+
+
+
+        }
+
+        .navbar2 div {
+
+            /* border: 1px solid red; */
+            width: 90%;
+            margin: 0px auto;
+            /* border:1px solid red; */
+            gap: 20px;
+        }
+
+        .navbar2 h1 {
+            color: #FFFFFF;
+            margin: 0px auto;
+            font-size: 35px;
+
+
+
+
+        }
+
+        .navbar2 p {
+            color: #FFFFFF;
+            /* border: 1px solid green; */
+            font-size: 17px;
+
+
+
+        }
+
+        .navbar2 ul {
+            width: 40%;
+            display: flex;
+
+            list-style: none;
+            color: #FFFFFF;
+            /* border: 1px solid red; */
+            /* gap: 40px; */
+            justify-content: space-evenly;
+
+        }
+
+        .navbar2 ul li a {
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+        }
+
+        .image {
+            /* border :1px solid blueviolet; */
+
+            height: 70px;
+            /* display: flex; */
+
+
+        }
+
+        .section2main {
+            margin-top: 60px;
+            /* border: 1px solid red; */
+            text-align: center;
+            /* background-color: #FFFFFF; */
+
+        }
+
+        .section2main h1 {
+
+            font-size: 35px;
+            /* font-family: */
+
+        }
+
+        .section2main p {
+            /* border: 1px solid black; */
+            font-size: 17px;
+            color: #626364;
+            width: 48%;
+            margin: 30px auto;
+
+
+        }
+
+        .mainbutton {
+            /* margin: 80px; */
+            width: 100%;
+            /* border :1px solid red; */
+
+        }
+
+        .btn1 {
+            width: 100px;
+            height: 50px;
+            border: none;
+            background-color: #2F956D;
+            color: white;
+            font-size: 17px;
+
+        }
+
+        .btn2 {
+            width: 100px;
+            height: 50px;
+            border: 1px solid #2F956D;
+            color: #2F956D;
+            font-size: 17px;
+
+        }
+
+        .btn3 {
+            width: 100px;
+            height: 50px;
+            border: 1px solid #2F956D;
+            color: #2F956D;
+            font-size: 17px
+        }
+
+        .section2image {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            /* border: 1px solid red; */
+            justify-content: space-evenly;
+
+        }
+
+        .section2main h1 {
+            font-size: 20px;
+        }
+
+        .section2imagecard {
+            width: 25%;
+            padding: 20px;
+        }
+
+        .section2imagecard p {
+            /* border: 1px solid red; */
+            width: 100%;
+
+
+        }
+
+        .avacodo {
+            /* border: 1px solid red; */
+            display: flex;
+        }
+
+        .button4 {
+            color: #626364;
+            height: 50px;
+            width: 120px;
+            font-size: 16px;
+            background-color: white;
+            float: right;
+            margin-right: 20px;
+
+            /* border: 1px solid red; */
+        }
+
+        .button4:hover {
+            color: #98999A
+        }
+
+        @media only screen and (max-width:576px) {
+            .main {
+                width: 100%;
+                background-color: white;
+            }
+
+            .navbarmain {
+                width: 100%;
+                border: 1px solid black;
+            }
+
+            .section2main {
+                /* border: 1px solid red; */
+                width: 100%;
+
+            }
+
+            .section2image {
+                flex-direction: column;
+                /* border: 1px solid red; */
+                align-items: center;
+                margin: 0px auto;
+            }
+
+            .image {
+                width: 600px;
+                height: 660px;
+
+            }
+
+            .avacodo {
+                flex-direction: column;
+            }
+
+            .mainbutton {
+                display: flex;
+                justify-content: space-evenly;
+            }
+
+            .section2imagecard {
+                width: 100%;
+                padding-top: 20px;
+                margin: 30px;
+
+            }
+
+            .section2imagecard p {
+                width: 48%;
+                text-align: start;
+                margin: 20px auto;
+
+
+            }
+
+            .section2imagecard h1 {
+                text-align: start;
+                width: 50%;
+                /* border: 1px solid red; */
+                margin: 20px auto;
+            }
+
+            .avacodo2 {
+                border: 1px solid red;
+
+            }
+
+            .avacodo2 p {
+                width: 100%;
+                line-height: 30px;
+                text-align: start;
+                padding: 0px 20px;
+            }
+        }
+
+        @media only screen and (min-width:576px) and (max-width:768px) {
+
+            .main {
+                width: 100%;
+                background-color: white;
+            }
+
+            .navbarmain {
+                width: 100%;
+                height: 520px;
+                /* border: 1px solid red; */
+            }
+            .navbarmain ul  {
+                border: 1px solid red;
+                width: 30%;
+              /* padding: 0px; */
+              justify-content: space-between;
+            }
+            .navbar2{
+                border: 1px solid red;
+            }
+            .image{
+                /* border: 1px solid red; */
+                width: 100%;
+            }
+            
+
+            .section2main {
+                width: 100%;
+                /* border: 1px solid red; */
+                   padding: 30px;
+            }
+            
+
+            .section2imagecard {
+                /* border: 1px solid red; */
+                width: 50%;
+             
+
+
+            }
+            .cardimage{
+
+                width: 100%;
+            }
+            .section2imagecard h1{
+                text-align: start;
+            }
+            .section2imagecard p{
+                text-align: start;
+            }
+            .mainbutton{
+                margin: 20px;
+            }
+            .avacodo{
+                /* border: 1px solid red; */
+                flex-direction: column;
+            }
+            .avacodo2{
+                width: 100%;
+            }
+            .avacodo h1{
+                text-align: start;
+            }
+            .avacodo p{
+                text-align: start;
+                width: 100%;
+            }
+            .section2main h2{
+                font-size: 35px;
+            }
+            .section2main p{
+                width: 100%;
+            }
+        }
+        @media only screen and (min-width:)

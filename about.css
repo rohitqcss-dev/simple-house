@@ -1,0 +1,275 @@
+body {
+    background-color: #CCC;
+    padding: 0px;
+}
+
+.main2 {
+ width: 1200px;
+            margin: 0px auto;
+            background-color: white;
+}
+        .navbarmain {
+            border: 1px solid green;
+            background-image: url('img/simple-house-01.jpg');
+            background-size: 100% 140%;
+            background-repeat: no-repeat;
+            height: 500px;
+
+
+
+
+        }
+
+        .navbar2 {
+            display: flex;
+
+            /* border: 1px solid red; */
+            margin-top: 380px;
+            gap: 40px;
+            padding: 0px 30px;
+
+
+
+
+        }
+
+        .navbar2 div {
+
+            /* border: 1px solid red; */
+            width: 90%;
+            margin: 0px auto;
+            /* border:1px solid red; */
+            gap: 20px;
+        }
+
+        .navbar2 h1 {
+            color: #FFFFFF;
+            margin: 0px auto;
+            font-size: 35px;
+
+
+
+
+        }
+
+        .navbar2 p {
+            color: #FFFFFF;
+            /* border: 1px solid green; */
+            font-size: 17px;
+
+
+
+        }
+
+        .navbar2 ul {
+            width: 40%;
+            display: flex;
+
+            list-style: none;
+            color: #FFFFFF;
+            /* border: 1px solid red; */
+            /* gap: 40px; */
+            justify-content: space-evenly;
+
+        }
+.navbar2 ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+        .image2 {
+            /* border :1px solid blueviolet; */
+
+            height: 70px;
+            display: flex;
+
+
+        }
+
+.about2ndsection {
+
+    text-align: center;
+
+}
+
+.about2ndsection h1 {
+    font-size: 31px;
+    color: #000000
+}
+
+.about2ndsection p {
+    font-size: 17px;
+    color: #626364;
+    width: 40%;
+    margin: 0px auto;
+
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 20px 20px;
+
+}
+
+.aboutimage1 {
+    /* border:1px solid red; */
+    width: 45%;
+    display: flex;
+    padding: 20px 20px;
+
+}
+
+.aboutimage2 {
+    /* border: 1px solid red; */
+    width: 42%;
+    padding: 30px 20px;
+
+
+}
+
+.aboutimage2 h2 {
+    color: #09C;
+}
+
+.imagecolorp {
+    color: #C39;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+
+
+
+
+    /* border: 1px solid red; */
+
+
+}
+
+.icon1 {
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+}
+
+.icon2 {
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+}
+
+.icon3 {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.bakgroundimage1 {
+
+    background-image: url('img/about-05.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 95%;
+    background-size: 100% 100%;
+    margin: 0px auto;
+}
+.abouthero{
+    /* border: 1px solid black; */
+    display: flex;
+   align-items: center;
+    
+}
+.abouthero div{
+    /* border: 1px solid red; */
+}
+
+.aboutbutton1{
+    color:white;
+    height: 45px;
+    width: 120px;
+    background-color: #2D99CC;
+    border: none;
+    margin: 10px auto;
+
+    
+}
+.aboutbutton2{
+    color:white;
+    height: 45px;
+    width: 120px;
+    background-color:#319966 ;
+    border: none;
+    margin: 10px auto;
+}
+.aboutbutton3{
+    color:white;
+    height: 45px;
+    width: 120px;
+    background-color:#993332 ;
+    border: none;
+    margin: 10px auto;
+}
+.abouthero2{
+    /* border: 1px solid red; */
+     color: #626364;
+    font-size: 17px;
+    margin: 50px auto;
+    width: 24%;
+    text-align: center;
+  
+    padding: 10px;
+    
+   
+}
+.abouthero3{
+    /* border: 1px solid red; */
+     color: #626364;
+    font-size: 17px;
+    margin: 50px auto;
+      width: 24%;
+       text-align: center;
+       padding: 10px;
+   
+}
+.abouthero4{
+    /* border: 1px solid red; */
+     color: #626364;
+    font-size: 17px;
+    margin: 50px auto;
+      width: 24%;
+       text-align: center;
+       padding: 10px;
+   
+}
+.lastclass{
+    display: flex;
+    padding: 50px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    
+}
+.lastclass h2{
+    color: #1A6692;
+    font-size:25px;
+     margin: 0px auto;
+     padding-left: 30px;
+    
+}
+.lastclass p{
+    font-size: 17px;
+    color: #626364;
+    width: 55%;
+     padding-left: 30px;
+     line-height: 28px;
+  
+   
+
+}
+

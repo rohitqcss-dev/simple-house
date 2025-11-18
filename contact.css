@@ -1,0 +1,227 @@
+body {
+    background-color: #CCC;
+    padding: 0px;
+}
+
+.main3 {
+    width: 1200px;
+    margin: 0px auto;
+    background-color: white;
+}
+
+
+
+
+
+
+
+.navbarmain {
+            border: 1px solid green;
+            background-image: url('img/simple-house-01.jpg');
+            background-size: 100% 140%;
+            background-repeat: no-repeat;
+            height: 500px;
+
+
+
+
+        }
+
+        .navbar2 {
+            display: flex;
+
+            /* border: 1px solid red; */
+            margin-top: 380px;
+            gap: 40px;
+            padding: 0px 30px;
+
+
+
+
+        }
+
+        .navbar2 div {
+
+            /* border: 1px solid red; */
+            width: 90%;
+            margin: 0px auto;
+            /* border:1px solid red; */
+            gap: 20px;
+        }
+
+        .navbar2 h1 {
+            color: #FFFFFF;
+            margin: 0px auto;
+            font-size: 35px;
+
+
+
+
+        }
+
+        .navbar2 p {
+            color: #FFFFFF;
+            /* border: 1px solid green; */
+            font-size: 17px;
+
+
+
+        }
+
+        .navbar2 ul {
+            width: 40%;
+            display: flex;
+
+            list-style: none;
+            color: #FFFFFF;
+            /* border: 1px solid red; */
+            /* gap: 40px; */
+            justify-content: space-evenly;
+
+        }
+.navbar2 ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+        .image {
+            /* border :1px solid blueviolet; */
+
+            height: 70px;
+            display: flex;
+
+}
+.secondsectionmain{
+    margin: 80px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.secondsectionmain h1{
+    color: #319966;
+
+}
+.secondsectionmain p{
+    width: 43%;
+    margin: 0px auto;
+    color: #626364;
+    font-size: 20px;
+
+}
+
+.secondinput{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    gap:200px;
+}
+.class1{
+     /* border: 1px solid red; */
+     line-height: 50px;
+     width: 50%;
+     /* display: block; */
+     
+    }
+    .class1 input{
+       border-bottom: 1px solid #ced4da;
+        border-top: none;  
+        border-right: none;  
+        border-left: none;  
+      line-height: 50px;
+      width: 100%;
+      font-size: 20px;
+    }
+    .class1 textarea{
+border-bottom: 1px solid #ced4da;
+        border-top: none;  
+        border-right: none;  
+        border-left: none;  
+         line-height: 30px;
+         width: 100%;
+         font-size: 20px;
+    }
+    .class1 button{
+    background-color: #319966;
+    color:white;
+    height: 40px ;
+    width: 30%;
+    float: right;
+    border: none;
+    
+    
+} 
+
+.class2{
+     /* border: 1px solid red; */
+
+}
+.class2 p{
+    width: 70%;
+     font-size: 20px;
+     color: #626364;
+     line-height: 30px;
+}
+.class2 h1{
+    color: #319966;
+       
+
+}
+.icon1{
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    gap: 20px;
+}
+.icon2{
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    gap: 20px;
+
+}
+.icon3{
+    gap: 20px;
+    /* border: 1px solid gray; */
+    display: flex;
+}
+.map{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.lastclass{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.lastclass p{
+    font-size: 20px;
+    width: 50%;
+    color: #626364;
+    margin: 40px auto;
+
+}
+.lastclass1 p{
+    font-size: 20px;
+    width: 50%;
+    height: 50px;
+
+    color: #626364;
+    margin: 40px auto;
+    border: 1px solid #626364;
+    padding: 10px;
+    box-sizing: border-box;
+   
+
+}
+.aboutmain ul li a{
+    
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+                
